@@ -11,6 +11,10 @@ pop = Genre.create(name: "pop")
 
 drake = Artist.create(name: "drake", bio: "hi im drake")
 adele = Artist.create(name: "adele", bio: "hi im adele")
+gucci = Artist.create(name: "gucci", bio: "hi im gucci")
 
-successful = Song.create(name:"successful", artist_id:drake, genre_id:rap)
-hello = Song.create(name:"hello", artist_id:adele, genre_id:pop)
+lemonde = Song.create(name:"lemonde", artist_id: 3, genre_id: 1)
+rain = Song.create(name: "rain", artist_id: 2, genre_id: 1)
+
+successful = Song.create(name:"successful", artist_id: 1, genre_id: 1)
+hello = Song.create(name:"hello", artist_id: 2, genre_id: 2)
